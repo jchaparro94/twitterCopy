@@ -203,6 +203,7 @@ body {
   background-color: #fff;
   padding: 2.5rem 0;
   box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.3);
+  z-index: 1;
 }
 
 .login-page-nav ul {
@@ -349,6 +350,7 @@ body {
 /* Login Modal */
 .login-modal {
   position: fixed;
+  display: none;
   top: 11.5rem;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -367,7 +369,6 @@ body {
   font-size: 1.3rem;
   color: #868383;
   cursor: pointer;
-  display: none;
 }
 
 .login-modal p {
